@@ -57,7 +57,7 @@ namespace newWordAddIn.Forms
             colItem.ImageAspectName = "DocumentType";
 
 
-            lv.EmptyListMsg = @"NO DOCUMENTS IN DB";
+            lv.EmptyListMsg = @"NO DOCUMENTS";
             if (lv.EmptyListMsgOverlay is TextOverlay lvOver)
             {
                 lvOver.TextColor = Color.Firebrick;
